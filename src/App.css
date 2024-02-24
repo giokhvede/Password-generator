@@ -77,3 +77,14 @@ button {
   font-size: 20px;
   padding: 20px;
 }
+
+.password-strength {
+  width: 100%;
+  color: rgb(99, 189, 166);
+  padding-bottom: 12px;
+}
+
+.password-strength span {
+  font-weight: bold;
+  color: white;
+}

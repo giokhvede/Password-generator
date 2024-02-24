@@ -22,7 +22,7 @@ const PasswordStrengthindicator = ({ password = "" }) => {
 
   return (
     <div className="password-strength">
-      Strength: <span>{passwordStrength}</span>
+      Password Strength: <span>{passwordStrength}</span>
     </div>
   );
 };
