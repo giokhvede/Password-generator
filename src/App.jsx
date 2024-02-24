@@ -21,7 +21,7 @@ function App() {
       </div>
       <div className="charLenght">
         <span>
-          <label htmlFor="">Character Lenght: </label>
+          <label htmlFor="">Character Lenght</label>
           <label htmlFor="">4</label>
         </span>
         <input
