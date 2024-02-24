@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import usePasswordGenerator from "./usePasswordGenerator";
+import PasswordStrengthindicator from "./components/StrenghChecker";
 
 function App() {
   const [length, setlength] = useState(8);
@@ -66,7 +67,7 @@ function App() {
           );
         })}
       </div>
-      {/* <div></div> strenght */}
+      <PasswordStrengthindicator password={password} />
       {errorMessage && <div className="errorMessage">{errorMessage}</div>}
       <button
         className="generateBtn"
