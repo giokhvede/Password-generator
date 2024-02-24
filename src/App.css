@@ -35,7 +35,7 @@ button {
   font-size: 10px;
 }
 
-.charLenght {
+.charLength {
   display: flex;
   flex-direction: column;
   color: white;
@@ -44,7 +44,7 @@ button {
   padding-bottom: 24px;
 }
 
-.charLenght span {
+.charLength span {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -63,6 +63,11 @@ button {
   display: flex;
   gap: 5px;
   padding-bottom: 25px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
 }
 
 .generateBtn {
